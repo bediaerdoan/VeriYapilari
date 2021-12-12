@@ -1,1 +1,2 @@
-# VeriYapilari Dersi Soru Havuzu Son Hali
+# VeriYapilari
+Veri Yapıları Dersi Örnek Kodlarına bu repo üzerinden erişilecektir
