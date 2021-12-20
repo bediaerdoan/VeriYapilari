@@ -17,19 +17,16 @@ void printStack(Stack *stack);
 bool isEmpty( Stack *stack );
 
 int main() {
-    Stack* stack = nullptr;
+    Stack* top = nullptr;
 
-    push(&stack, 3);
-    push(&stack, 21);
-    push(&stack, 13);
-    push(&stack, 11);
+    push(&top, 15);
+    push(&top, 46);
+    push(&top, 3);
+    push(&top, 27);
+    push(&top, 5);
 
-    printStack(stack);
-    cout << endl << peek( stack ) << endl;
-
-    // int popValue = pop(&stack);
-    // popValue = pop(&stack);
-
+    printStack(top);
+    cout << endl << peek( top ) << endl;
 
 
     return 0;
