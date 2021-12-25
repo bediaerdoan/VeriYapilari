@@ -29,9 +29,6 @@ int main() {
     char G[] = "(((a+b)*(c-d))";
     cout << isBalanced(G) << endl;
 
-    char H[] = "(((a+b)*(c-d))";
-    cout << isBalanced(H) << endl;
-
     return 0;
 }
 
