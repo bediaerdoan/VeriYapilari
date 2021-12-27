@@ -1,0 +1,8 @@
+#Alt klasörlerde dahil .exe uzantılı dosyalar
+*/*.exe
+
+#Alt klasörlerde dahil .exe uzantılı dosyalar
+SoruHavuzu/*/*.exe
+
+#.vscode klasörünün tamamı
+.vscode/

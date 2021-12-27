@@ -118,7 +118,7 @@ void Tree::CreateTree() {
             q.enqueue(t);
         }
  
-        cout << "Enter left child value of " << p->data << ": " << flush;
+        cout << "Enter right child value of " << p->data << ": " << flush;
         cin >> x;
         if (x != -1){
             t = new Node;

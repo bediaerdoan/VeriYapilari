@@ -122,7 +122,7 @@ void Tree::CreateTree() {
             q.enqueue(t);
         }
  
-        cout << "Enter left child value of " << p->data << ": " << flush;
+        cout << "Enter right child value of " << p->data << ": " << flush;
         x = cin.get();
         cin.ignore();
 
